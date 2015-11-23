@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+
+	<title>Whole Gym</title>
+
+	<link rel="stylesheet" type="text/css" href="signup.css">
+	
+
+</head>
+<body>
+	
+	<!-- Header -->
+	<div id="header">
+		<ul>
+				<li><a href="Contact.html">Workouts</a></li>
+				<li><a href="signup.html">Sign Up</a></li>
+				<li><a href="Nutrition.html">Nutrition</a></li>
+				<li><a href="index.html">Home</a></li>
+		</ul>	
+
+		<h1>Whole Gym</h1>
+	</div>
+	<img src="guys.jpg" id="One"/>
+
+	<!-- end of header -->
+
+	<!-- content starts -->
+
+	<fieldset>
+	<legend>Register</legend>
+	<form name="formOne" onsubmit="return validateFormss();" method="post">
+		<label for="username" id="dude">Name:</label>
+		<input type="text" name="username" id="name"> <div id="warning1" class="warning"></div><br>
+		
+		<label for="lastName">Lastname:</label>
+		<input type="text" name="lastName" id="lastname"> <div id="warning2" class="warning"></div><br>
+		<label for="lastName" id="god">Email:</label>
+		<input type="text" name="lastName" id="email" name="email"> <div id="warning3"></div><br>
+		<label for="password">Password:</label>
+		<input type="password" name="password" id="password">
+		 
+		 <div id="warning4"></div><br>
+		 
+		<label for="male">Male</label>
+		<input type="radio" name="male" id="radioButtonOne">
+		<label for="female">Female</label>
+		<input type="radio" name="male" id="radioButtonOne"><br>
+		<p class="pa">Type of Membership you want?.</p>
+
+		<select id="types">
+			<option value="" selected="selected">Select One</option>
+			<option value="2"> $50 Dollars</option>
+			<option value="3"> $20 Dollars</option>
+		</select>
+		<div id="hey" class="warning"></div>
+
+		<input type="submit" value="Submit" id="submit">
+
+	
+		
+
+
+	</form>		
+</fieldset>
+	
+	<article id="content">
+		<figcaption class="headingOne">Type of Membership</figcaption><p> 
+		$50 Dollar: <br> This one includes everything. You will have a Personal Trainer guiding you through your workouts, we will provide a free Protein Shake for the first months and you will be able to go to every Whole Gym located in the United States. <br> <br>
+		$20 Dollar: <br>  This one is the regular membership you will be able to come only to this location but you will have access to our pool, we will provide you with a Personal Trainer for a week so you can get started with your workouts.</p> 
+
+		<div>Any Comments/feedback you would like to give us: </div>
+		<textarea rows="7" cols="100" name="TextField" id="text" placeholder="Comments"></textarea>
+		<div id="textArea"></div>
+	</article>
+	<!-- content ends -->
+	<script src="wholeGym.js"></script>
+	<script src="textarea.js"></script>
+	<script src="email.js"></script>
+
+	
+
+</body>
+</html>

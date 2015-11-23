@@ -1,0 +1,142 @@
+
+body {
+
+	width: 1250px;
+	height: 1050px;
+	min-height: 500px;
+	min-width: 850px;
+	line-height: 150%;
+}
+
+#header {
+
+	box-shadow: 0px 0px 20px white;
+	height: 100px;
+	text-decoration: none;
+	border-radius: 7px;
+	z-index: 1;
+	border-bottom: 2px solid black;
+	color: #DC143C;
+}
+
+li {
+
+	display: inline;
+	border-left: 2px solid gray;
+	padding: 10px;
+	margin: 5px;
+	font-size: 130%;
+	float: right;
+	opacity: 0.9;
+	font-family: 'Pacifico', cursive;
+}
+
+ h1 {
+ 	padding: 15px;
+ 	font-family: 'Pacifico', cursive;
+ 	text-shadow: 0px 0px 25px #B6316C;
+ 	font-size: 250%;
+ 	
+ }
+
+ a {
+
+ 	text-decoration: none;
+ 	color: white;
+ 	text-shadow: 0px 0px 25px #B6316C;
+ }
+ a:active {
+
+ 	color:#DC143C;
+
+ }
+ a:hover {
+
+ 	text-shadow: 0px 0px 35px #111111;
+ 	color: #DC143C;
+ }
+
+   img {
+ 	
+ 	border-radius: 55px;
+ 	opacity: 0.8;
+ 	box-shadow: 0px 0px 20px white;
+
+ 	border-bottom: 2px solid black;
+ }
+
+ #One {
+
+ 	width: 1280px;
+ 	height: 950px;
+ 	z-index: -1;
+ 	border-radius: 5px;
+ 	position: fixed;
+ 	left: 0px;
+ 	top: 0px;
+ 	border-bottom: 2px solid black;	
+ }
+
+ #articleOne {
+
+ 	width: 470px;
+ 	height: 420px;
+ 	box-shadow: 0px 0px 25px white;
+ 	margin: 20px;
+ 	border-radius: 47px;
+ 	text-align: center;
+ 	background-color: #DC143C;
+ 	opacity: 0.8;
+ }
+
+ #articleTwo {
+
+ 	width: 470px;
+ 	height: 420px;
+ 	box-shadow: 0px 0px 25px white;
+ 	margin: 20px;
+ 	border-radius: 47px;
+ 	text-align: center;
+ 	background-color: #DC143C;
+ 	opacity: 0.8;
+ 	float: left;
+ }
+
+ #articleThree {
+
+ 	width: 470px;
+ 	height: 420px;
+ 	box-shadow: 0px 0px 25px white;
+ 	margin: 20px;
+ 	border-radius: 47px;
+ 	text-align: center;
+ 	background-color: #DC143C;
+ 	opacity: 0.8;
+ 	position: absolute;
+ 	top: 130px;
+ 	left: 750px;
+
+ 	float: right;
+ }
+ #four {
+
+ 	width: 470px;
+ 	height: 420px;
+ 	box-shadow: 0px 0px 25px white;
+ 	margin: 20px;
+ 	border-radius: 47px;
+ 	text-align: center;
+ 	background-color: #DC143C;
+ 	opacity: 0.8;
+ 	float: right;
+ }
+
+ figcaption {
+
+ 	font-size: 130%;
+ 	font-family: 'Pacifico', cursive;
+ 	padding-top: 10px;
+ 	padding-bottom: 10px;
+ 	color: white;
+
+ }
